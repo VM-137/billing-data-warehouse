@@ -31,6 +31,7 @@ Here are five example rows from the CSV file:
 
 To support the complex queries related to billing, the data is organized into a **star schema** with one fact table and two dimension tables.
 
+![ERD Diagram](erd-diagram.png)
 ### Fact Table: FactBilling
 
 The **FactBilling** table stores the billing information for each customer for each month. The table includes foreign keys referencing customer and month details from the respective dimension tables.
